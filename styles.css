@@ -7,7 +7,7 @@ body {
 
 }
 
-.high{
+/*.high{
     display: flex;
     justify-content: end;
     margin: 20px 15px;
@@ -31,10 +31,46 @@ body {
     padding: 8px 15px;
     margin-left: 23px;
     border-radius: 3px;
+}*/
+
+/* .high {
+    display: flex;
+    justify-content: end;
+
+} */
+
+.high{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo{
+    margin-left: -20px;
+}
+
+.high-two{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    color: #00DF91;
+    font-weight: bold;
+}
+
+.top-arc{
+    margin: 0px 10px;
+    padding: 10px 5px;
+}
+
+#top-btn{
+    background-color: #C3E3DE;;
+    padding: 10px 30px;
+    border-radius: 3px;
 }
 
 .main{
     font-size: 13px;
+    margin-top: 60px;
 }
 
 #heading-size{
