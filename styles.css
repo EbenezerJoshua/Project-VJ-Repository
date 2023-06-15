@@ -80,6 +80,7 @@ textarea{
     border-radius: 5px;
     margin-top: 11px;
     resize: none;
+    width: 400px;
 }
 
 textarea::placeholder {
