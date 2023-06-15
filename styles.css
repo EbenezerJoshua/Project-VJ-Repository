@@ -1,55 +1,23 @@
 body {
     text-align: center;
     font-family: 'Comfortaa', cursive;
-    background: url("background-new.jpeg");
+    background-image: url("background-new.jpeg");
     color: #000000;
-    display: block;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/*.high{
-    display: flex;
-    justify-content: end;
-    margin: 20px 15px;
-    padding: 10px 40px 50px;
-    font-size: 14px;
-    color: #01DE91;
-    font-weight: bold;
-}
-
-#photo{
-    margin-right: 750px;
-    margin-left: -50px;
-}
-
-.top-arc{
-    padding: 8px 20px;
-}
-
-#top-btn{
-    background-color: #C3E3DE;
-    padding: 8px 15px;
-    margin-left: 23px;
-    border-radius: 3px;
-}*/
-
-/* .high {
-    display: flex;
-    justify-content: end;
-
-} */
-
-.high{
+.top-bar{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.photo{
+.logo{
     margin-left: -20px;
 }
 
-.high-two{
+.top-bar-right-class{
     display: flex;
     justify-content: center;
     margin-right: 50px;
@@ -57,7 +25,7 @@ body {
     font-weight: bold;
 }
 
-.top-arc{
+.top-bar-element{
     margin: 0px 10px;
     padding: 10px 5px;
 }
@@ -73,39 +41,42 @@ body {
     margin-top: 60px;
 }
 
-#heading-size{
+#heading{
     font-size: 32px;
-}
-
-.typos{
-    display: flex;
-    width: 300px;
-    margin: 0px auto 12px;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    ::placeholder {
-        text-indent: 15px;
-        line-height: 1.5;
-     }
-}
-
-.typos1{
-    margin: 8px 0;
-    width: 400px;
-    height: 50px;
-    border: 1px solid white;
-    background-color: #FFFFFF(255, 0, 0);
-    border-radius: 5px;
-    text-align: left;
 }
 
 #lastpara{
     margin-top: -5px;
 }
 
+.input-feilds{
+    display: flex;
+    margin: 0px auto 12px;
+    flex-direction: column;
+    align-items: center;
+    ::placeholder {
+        text-indent: 15px;
+     }
+}
+
+.common-input-feild{
+    margin: 8px 0;
+    height: 50px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: #FFFFFF(255, 0, 0);
+    border-radius: 5px;
+    text-align: left;
+}
+
+#typo1{
+    margin-top: -1px;
+}
+
 #lasttypo{
+    border: none;
     height: 130px;
+    width: 400px;
     ::placeholder {
         padding-top: 10px
      }
@@ -115,11 +86,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
-#typo1{
-    margin-top: -1px;
-}
-
 
 .btn {
     margin: 8px 2px 0;
@@ -132,7 +98,7 @@ body {
     color: white;
 }
 
-.btnz {
+.btn-anc {
     margin: 8px 2px 0;
     border: none;
     padding: 15px 40px;
