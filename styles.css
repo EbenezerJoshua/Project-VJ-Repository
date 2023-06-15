@@ -85,10 +85,12 @@ body {
 #btn-wrapper{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .btn {
-    margin: 8px 2px 0;
+    margin: 8px 2px 55px;
     background: #00DF91;
     border: 2px solid #26CB8F;
     padding: 5px 60px;
@@ -99,7 +101,7 @@ body {
 }
 
 .btn-anc {
-    margin: 8px 2px 0;
+    margin: 8px 2px 55px;
     border: none;
     padding: 15px 40px;
     border-radius: 4px;
